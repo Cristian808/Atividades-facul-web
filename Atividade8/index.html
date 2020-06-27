@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade 8</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <form>
+      <div class="m-5">
+        <div class="form-group">
+          <label for="emailInput">E-mail</label>
+          <input
+            type="text"
+            class="form-control"
+            id="emailInput"
+            placeholder="Entre com o seu endereço de e-mail"
+          />
+        </div>
+        <div class="form-group">
+          <label for="passwordInput">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="passwordInput"
+            placeholder="Passowrd"
+          />
+        </div>
+        <div class="form-group">
+          <label for="textAreaInput">Mensagem</label>
+          <textarea
+            class="form-control"
+            id="textAreaInput"
+            rows="3"
+            placeholder="Entre com sua mensagem aqui"
+          ></textarea>
+        </div>
+        <label for="inputFile">Anexo (Imagem)</label>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <img
+              src="https://img.icons8.com/android/24/000000/file.png"
+              class="input-group-text"
+              id="inputFile"
+            />
+          </div>
+          <div class="custom-file">
+            <input
+              type="file"
+              class="custom-file-input"
+              id="inputGroupFile01"
+              aria-describedby="inputFile"
+            />
+            <label class="custom-file-label" for="inputGroupFile01"
+              >Escolher arquivo</label
+            >
+          </div>
+        </div>
+        <div class="custom-control custom-checkbox form-group">
+          <input type="checkbox" class="form-check-input" id="checkboxInput" />
+          <label class="form-check-label" for="checkboxInput"
+            >Declaro ter lido os termos e condições</label
+          >
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+    </form>
+  </body>
+</html>
